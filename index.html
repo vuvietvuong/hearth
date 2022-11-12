@@ -332,8 +332,13 @@ var ParticlePool = (function() {
         justify-content: center;
         margin-bottom: 5px;
         text-align: center;">Anh Yêu Em</div>
-    <audio src="iuu.mp3" autoplay loop controls width="100%" webkit-playsinline playsinline hidden id="audio">
+    <audio src="iuu.mp3" loop controls width="100%" webkit-playsinline playsinline hidden id="audio">
         <source src="iuu.mp3" type="audio/mp3">
     </audio>
  </BODY>
+ <script>
+    window.onload = function(){
+        document.getElementById('audio').play()
+    }
+ </script>
 </HTML>
