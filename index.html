@@ -2,7 +2,7 @@
 <HTML>
  <HEAD>
   <TITLE> LOVE </TITLE>
-  <link rel="icon" href="/em_iuu.jpg" sizes="32x32" type="image/jpg">
+  <link rel="icon" href="em_iuu.ico" sizes="22x32" type="image/x-icon">
   <META NAME="Generator" CONTENT="EditPlus">
   <META NAME="Author" CONTENT="">
   <META NAME="Keywords" CONTENT="">
@@ -313,7 +313,6 @@ var ParticlePool = (function() {
     canvas.height = canvas.clientHeight;
   }
   window.onresize = onResize;
- 
   // delay rendering bootstrap
   setTimeout(function() {
     onResize();
@@ -333,8 +332,8 @@ var ParticlePool = (function() {
         justify-content: center;
         margin-bottom: 5px;
         text-align: center;">Anh Yêu Em</div>
-    <audio autoplay loop controls width="100%" webkit-playsinline playsinline hidden>
-        <source src="iuu.mp3" type="audio/ogg">
+    <audio src="iuu.mp3" autoplay loop controls width="100%" webkit-playsinline playsinline hidden id="audio">
+        <source src="iuu.mp3" type="audio/mp3">
     </audio>
  </BODY>
 </HTML>
